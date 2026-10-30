@@ -4,6 +4,17 @@
 
 适用于那些屏蔽了 ⌘V 粘贴、只认"真实键盘输入"的输入框(网页表单、考试系统、部分聊天客户端等)。
 
+## 一行安装(macOS)
+
+不需要 Xcode,一行命令直接拿到可执行文件:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/D1ngding999/typeit/main/install.sh | bash
+```
+
+装好后 `~/.local/bin` 里有:`typeit`(命令行)/ `typeitd`(快捷键守护)/ `typeitapp`(菜单栏 App)。
+首次使用记得去 **系统设置 → 隐私与安全性 → 辅助功能** 勾选运行它的终端 App。
+
 包含三个组件:
 
 | 文件 | 说明 |
