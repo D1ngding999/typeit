@@ -1,0 +1,7 @@
+# 编译产物
+typeit
+typeitd
+typeitapp
+*.o
+.dsym/
+.DS_Store
